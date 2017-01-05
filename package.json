@@ -1,0 +1,29 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "This blog is to document my learning journey in the world of information security. I will be focusing on studying for several certifications, and learning practical skills as well. I want this to be a medium for me enhancing my learning, and perhaps, provide a blueprint for others trying to learn similar topics.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psoukup/blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psoukup/blog/issues"
+  },
+  "homepage": "https://github.com/psoukup/blog#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "knex": "^0.12.6",
+    "method-override": "^2.3.7",
+    "morgan": "^1.7.0",
+    "pg": "^6.1.2"
+  }
+}
