@@ -1,0 +1,16 @@
+.rectangle {
+	width: 30%;
+	height: 100%;
+	background-color: #46494c;
+	border: solid 1px #979797;
+  margin-top: 0px;
+  padding: 0px;
+  position: absolute;
+}
+.logo {
+  height: 15%;
+  width: 15%;
+  margin: 0px;
+  position: relative;
+  padding-top: 100px;
+}
