@@ -1,3 +1,6 @@
+body {
+	background: #c5c3c6;
+}
 .rectangle {
 	width: 30%;
 	height: 1000%;
@@ -14,14 +17,6 @@
   position: relative;
   padding-top: 100px;
 }
-.rectangle-2 {
-  clear: right;
-  width: 70%;
-  height: 1000%;
-  background-color: #c5c3c6;
-  position: absolute;
-  right: 0px;
-}
 .navigation {
   list-style: none;
   text-decoration: none;
@@ -37,4 +32,10 @@
 }
 .navigation li {
   margin: 10px;
+}
+.about-me {
+	height: 100px;
+	width: 100px;
+	background: white;
+	display: flex;
 }

@@ -3,7 +3,8 @@ var express = require('express'),
     methodOverride = require('method-override'),
     morgan = require('morgan'),
     bodyParser = require('body-parser'),
-    index = require('./routes/index')
+    index = require('./routes/index'),
+    about = require('./routes/about');
 
 app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/public'));
@@ -12,6 +13,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(methodOverride('_method'));
 
 app.use('/', index);
+app.use('/about', about);
 
 
 app.listen(process.env.PORT || 3000, function() {
