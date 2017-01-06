@@ -4,7 +4,7 @@ var express = require('express'),
 
 //homepage or blog route
 router.get('/', function(req, res) {
-  res.send('This Index Route is Working')
+  res.render('blog')
 });
 
 module.exports = router;
