@@ -16,6 +16,7 @@ app.use(methodOverride('_method'));
 
 app.use('/', index);
 app.use('/about', about);
+app.use('/portfolio', portfolio);
 app.use('/contact', contact);
 
 
