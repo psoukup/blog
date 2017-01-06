@@ -4,7 +4,9 @@ var express = require('express'),
     morgan = require('morgan'),
     bodyParser = require('body-parser'),
     index = require('./routes/index'),
-    about = require('./routes/about');
+    about = require('./routes/about'),
+    contact = require('./routes/contact'),
+    portfolio = require('./routes/portfolio');
 
 app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/public'));
@@ -14,6 +16,7 @@ app.use(methodOverride('_method'));
 
 app.use('/', index);
 app.use('/about', about);
+app.use('/contact', contact);
 
 
 app.listen(process.env.PORT || 3000, function() {
